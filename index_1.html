@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram logo</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .insta {
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+            border-radius: 35px;
+            display: grid;
+            place-items: center;
+        }
+
+        .innerbox {
+            width: 140px;
+            height: 140px;
+            border: 10px solid #fff;
+            border-radius: 35px;
+            display: grid;
+            place-items: center;
+            position: relative;
+        }
+        .innerbox::before{
+            content: " ";
+            width: 60px;
+            height: 60px;
+            border: 10px solid #fff;
+            border-radius: 50%;
+            background: transparent;
+            position: absolute;
+           
+        }
+        .innerbox::after{
+            content: " ";
+            width: 15px;
+            height: 15px;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            background: #fff;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+.h1,span{
+    color: rgb(255, 0, 119);
+    
+}
+    </style>
+</head>
+
+<body>
+    
+    <div class="insta">
+        
+        <div class="innerbox">
+            
+            
+        </div>
+        
+        
+    </div>
+    
+    <h1>INSTA<span>GRAM</span></h1>
+</body>
+
+</html>
